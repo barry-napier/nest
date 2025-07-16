@@ -1,29 +1,71 @@
-/* Nest CSS Framework */
-
-/* Import order:
- * 1. Tokens (design tokens, variables)
- * 2. Theme (theme configurations)
- * 3. Elements (base HTML elements)
- * 4. Components (reusable UI components)
- * 5. Utilities (utility classes)
- */
+/* Nest UI CSS Framework */
 
 /* ==========================================================================
-   Tokens
+   CSS Layer Definitions
    ========================================================================== */
 
-/* ==========================================================================
-   Theme
-   ========================================================================== */
+/* Define the layer order for Nest UI */
+@layer nest.reset, nest.tokens, nest.core, nest.elements, nest.components, nest.utilities;
 
 /* ==========================================================================
-   Elements
+   Reset Layer
    ========================================================================== */
 
-/* ==========================================================================
-   Components
-   ========================================================================== */
+@layer nest.reset {
+  /* CSS Reset and Normalize styles will go here */
+}
 
 /* ==========================================================================
-   Utilities
+   Tokens Layer
    ========================================================================== */
+
+@layer nest.tokens {
+  /* Figma-exported design tokens */
+  @import "./tokens/palette.css";
+  @import "./tokens/colors.css";
+  @import "./tokens/spacing.css";
+  @import "./tokens/typography.css";
+  @import "./tokens/radii.css";
+}
+
+/* ==========================================================================
+   Core Layer
+   ========================================================================== */
+
+@layer nest.core {
+  /* Semantic token mappings */
+  /* This layer maps design tokens to semantic names */
+
+  /* Example semantic tokens:
+   * --btn-background: var(--color-primary-500);
+   * --btn-text: var(--color-white);
+   * --spacing-xs: var(--space-100);
+   */
+}
+
+/* ==========================================================================
+   Elements Layer
+   ========================================================================== */
+
+@layer nest.elements {
+  /* Native HTML element styling */
+  /* This layer styles base HTML elements using semantic tokens */
+}
+
+/* ==========================================================================
+   Components Layer
+   ========================================================================== */
+
+@layer nest.components {
+  /* Reusable UI components */
+  /* This layer contains BEM-structured components using semantic tokens */
+}
+
+/* ==========================================================================
+   Utilities Layer
+   ========================================================================== */
+
+@layer nest.utilities {
+  /* Utility classes */
+  /* This layer contains utility classes for common patterns */
+}

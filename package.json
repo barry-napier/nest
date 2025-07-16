@@ -19,7 +19,6 @@
     "http-server": "^14.1.1",
     "prettier": "^3.6.2",
     "stylelint": "^16.21.1",
-    "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-standard": "^38.0.0"
+    "stylelint-config-recommended": "^16.0.0"
   }
 }
