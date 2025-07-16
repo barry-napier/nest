@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=3000 --open=/public/index.html",
-    "dev": "live-server --port=3000 --open=/public/index.html --watch=src",
+    "start": "live-server public --port=3000",
+    "dev": "live-server public --port=3000 --watch=src",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "stylelint \"src/**/*.css\"",
