@@ -1,70 +1,77 @@
-/* Nest UI CSS Framework */
+/**
+ * @section Nest UI CSS Framework
+ *
+ * A modern, classless CSS framework designed to work seamlessly with your design system in Figma.
+ * It prioritizes semantic design tokens, accessible native elements, and minimal configuration.
+ */
 
-/* ==========================================================================
-   CSS Layer Definitions
-   ========================================================================== */
-
-/* Define the layer order for Nest UI */
+/**
+ * @section CSS Layer Definitions
+ *
+ * Define the layer order for Nest UI
+ */
 @layer nest.reset, nest.tokens, nest.core, nest.elements, nest.components, nest.utilities;
 
-/* ==========================================================================
-   Reset Layer
-   ========================================================================== */
-
+/**
+ * @section Reset Layer
+ *
+ * CSS Reset and Normalize styles
+ */
 @layer nest.reset {
   /* CSS Reset and Normalize styles will go here */
 }
 
-/* ==========================================================================
-   Tokens Layer
-   ========================================================================== */
+/**
+ * @section Tokens Layer
+ *
+ * Figma-exported design tokens
+ */
+@import "./tokens/fonts.css";
+@import "./tokens/colors.css";
+@import "./tokens/spacing.css";
+@import "./tokens/typography.css";
+@import "./tokens/radii.css";
 
-@layer nest.tokens {
-  /* Figma-exported design tokens */
-  @import "./tokens/colors.css";
-  @import "./tokens/spacing.css";
-  @import "./tokens/typography.css";
-  @import "./tokens/radii.css";
-}
-
-/* ==========================================================================
-   Core Layer
-   ========================================================================== */
-
+/**
+ * @section Core Layer
+ *
+ * Semantic token mappings
+ * This layer maps design tokens to semantic names
+ */
 @layer nest.core {
-  /* Semantic token mappings */
-  /* This layer maps design tokens to semantic names */
-
   /* Example semantic tokens:
    * --btn-background: var(--color-primary-500);
    * --btn-text: var(--color-white);
-   * --spacing-xs: var(--space-100);
+   * --spacing-xs: var(--spacing-100);
    */
 }
 
-/* ==========================================================================
-   Elements Layer
-   ========================================================================== */
-
+/**
+ * @section Elements Layer
+ *
+ * Native HTML element styling
+ * This layer styles base HTML elements using semantic tokens
+ */
 @layer nest.elements {
-  /* Native HTML element styling */
-  /* This layer styles base HTML elements using semantic tokens */
+  /* Native HTML element styling will go here */
 }
 
-/* ==========================================================================
-   Components Layer
-   ========================================================================== */
-
+/**
+ * @section Components Layer
+ *
+ * Reusable UI components
+ * This layer contains BEM-structured components using semantic tokens
+ */
 @layer nest.components {
-  /* Reusable UI components */
-  /* This layer contains BEM-structured components using semantic tokens */
+  /* Component styles will go here */
 }
 
-/* ==========================================================================
-   Utilities Layer
-   ========================================================================== */
-
+/**
+ * @section Utilities Layer
+ *
+ * Utility classes
+ * This layer contains utility classes for common patterns
+ */
 @layer nest.utilities {
-  /* Utility classes */
-  /* This layer contains utility classes for common patterns */
+  /* Utility classes will go here */
 }

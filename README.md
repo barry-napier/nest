@@ -33,14 +33,19 @@ The development server will open your browser to `http://localhost:3000` where y
 
 ```
 nest/
-├── src/
-│   ├── tokens/      # Design tokens (colors, spacing, typography)
-│   ├── theme/       # Theme configurations
-│   ├── elements/    # Base HTML element styles
-│   ├── components/  # Reusable UI components
-│   ├── utilities/   # Utility classes
-│   └── nest.css     # Main CSS file
-├── index.html       # Demo page
+├── public/              # Publicly served assets
+│   ├── assets/
+│   │   └── fonts/
+│   │       └── proxima-nova/  # Proxima Nova font files
+│   └── index.html       # Demo page
+├── src/                 # Source code for Nest CSS
+│   ├── tokens/          # Design tokens
+│   │   ├── colors.css   # Color palette
+│   │   ├── spacing.css  # Spacing scale
+│   │   ├── typography.css # Typography tokens
+│   │   ├── radii.css    # Border radius tokens
+│   │   └── fonts.css    # Font definitions
+│   └── nest.css         # Main CSS file
 ├── package.json
 └── README.md
 ```

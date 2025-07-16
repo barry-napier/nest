@@ -1,0 +1,43 @@
+/**
+ * @section Fonts
+ *
+ * Proxima Nova font family definitions
+ */
+@layer nest.tokens {
+  /* Proxima Nova Font Family */
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url("../public/assets/fonts/proxima-nova/Proxima-Nova-Regular.otf")
+      format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url("../public/assets/fonts/proxima-nova/Proxima-Nova-Medium.otf")
+      format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url("../public/assets/fonts/proxima-nova/Proxima-Nova-Semibold.otf")
+      format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url("../public/assets/fonts/proxima-nova/Proxima-Nova-Bold.otf")
+      format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+}
