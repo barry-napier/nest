@@ -21,6 +21,7 @@
     --color-gray-200: #e2e8ee;
     --color-gray-100: #eff2f6;
     --color-gray-50: #f9fafc;
+
     /* Red */
     --color-red-900: #7f1d1d;
     --color-red-800: #991b1b;
@@ -32,6 +33,7 @@
     --color-red-200: #fecaca;
     --color-red-100: #fee2e2;
     --color-red-50: #fef2f2;
+
     /* Orange */
     --color-orange-900: #c75000;
     --color-orange-800: #d25704;
@@ -43,6 +45,7 @@
     --color-orange-200: #fed6a9;
     --color-orange-100: #ffecd6;
     --color-orange-50: #fff5eb;
+
     /* Yellow */
     --color-yellow-900: #78350f;
     --color-yellow-800: #92400e;
@@ -54,6 +57,7 @@
     --color-yellow-200: #fde68a;
     --color-yellow-100: #fef3c7;
     --color-yellow-50: #fffbeb;
+
     /* Green */
     --color-green-900: #064e3b;
     --color-green-800: #065f46;
@@ -65,6 +69,7 @@
     --color-green-200: #a7f3d0;
     --color-green-100: #d1fae5;
     --color-green-50: #ecfdf5;
+
     /* Teal */
     --color-teal-900: #134e4a;
     --color-teal-800: #115e59;
@@ -76,6 +81,7 @@
     --color-teal-200: #99f6e4;
     --color-teal-100: #ccfbf1;
     --color-teal-50: #f0fdfa;
+
     /* Cyan */
     --color-cyan-900: #164e63;
     --color-cyan-800: #155e75;
@@ -87,6 +93,7 @@
     --color-cyan-200: #a5f3fc;
     --color-cyan-100: #cffafe;
     --color-cyan-50: #ecfeff;
+
     /* Light Blue */
     --color-light-blue-900: #0c4e6e;
     --color-light-blue-800: #075a83;
@@ -98,6 +105,7 @@
     --color-light-blue-200: #bae6fd;
     --color-light-blue-100: #e0f2fe;
     --color-light-blue-50: #f0f9ff;
+
     /* Blue */
     --color-blue-900: #1e3a8a;
     --color-blue-800: #1e40af;
@@ -109,6 +117,7 @@
     --color-blue-200: #bfdbfe;
     --color-blue-100: #dbeafe;
     --color-blue-50: #eff6ff;
+
     /* Indigo */
     --color-indigo-900: #312e81;
     --color-indigo-800: #3730a3;
@@ -120,6 +129,7 @@
     --color-indigo-200: #c7d2fe;
     --color-indigo-100: #e0e7ff;
     --color-indigo-50: #eef2ff;
+
     /* Purple */
     --color-purple-900: #4c1d95;
     --color-purple-800: #5b21b6;
@@ -131,6 +141,7 @@
     --color-purple-200: #ddd6fe;
     --color-purple-100: #ede9fe;
     --color-purple-50: #f5f3ff;
+
     /* Pink */
     --color-pink-900: #831843;
     --color-pink-800: #9d174d;
@@ -142,6 +153,7 @@
     --color-pink-200: #fbcfe8;
     --color-pink-100: #fce7f3;
     --color-pink-50: #fdf2f8;
+
     /* Rose */
     --color-rose-900: #881337;
     --color-rose-800: #9f1239;
