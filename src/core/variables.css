@@ -33,7 +33,7 @@
     --btn-radius: var(--radius-lg);
     --btn-padding-y: var(--spacing-3);
     --btn-padding-x: var(--spacing-5);
-    --btn-font-size: var(--font-size-body);
+    --btn-font-size: var(--text-sm);
     --btn-font-weight: var(--font-semibold);
 
     /* button primary */
