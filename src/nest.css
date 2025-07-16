@@ -21,7 +21,6 @@
 
 @layer nest.tokens {
   /* Figma-exported design tokens */
-  @import "./tokens/palette.css";
   @import "./tokens/colors.css";
   @import "./tokens/spacing.css";
   @import "./tokens/typography.css";
