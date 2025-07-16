@@ -12,7 +12,7 @@
     --color-text-inverse: var(--color-white);
 
     /* Background & Surface Roles */
-    --color-background-default: var(--color-red-500);
+    --color-background-default: var(--color-gray-100);
     --color-surface-default: var(--color-white);
 
     /* Border Roles */
