@@ -9,9 +9,9 @@
   }
 
   html {
-    font-family: var(--font-family, system-ui, sans-serif);
+    font-family: var(--font-family-default);
     font-size: 100%; /* 16px default */
-    line-height: var(--line-height-body, 1.5);
+    line-height: var(--line-height-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-size-adjust: 100%;

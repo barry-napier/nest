@@ -8,8 +8,8 @@
     "dev": "live-server public --port=3000 --watch=src",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "stylelint \"src/**/*.css\"",
-    "lint:fix": "stylelint \"src/**/*.css\" --fix"
+    "lint": "stylelint \"public/assets/css/**/*.css\"",
+    "lint:fix": "stylelint \"public/assets/css/**/*.css\" --fix"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "live-server": "^1.2.2",
     "prettier": "^3.6.2",
     "stylelint": "^16.21.1",
-    "stylelint-config-recommended": "^16.0.0"
+    "stylelint-config-recommended": "^16.0.0",
+    "stylelint-value-no-unknown-custom-properties": "^6.0.1"
   }
 }

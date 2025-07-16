@@ -1,0 +1,42 @@
+/**
+ * @file headings.css — Heading elements (h1–h6)
+ */
+@layer nest.elements {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+
+  h1 {
+    font-size: var(--font-size-heading-1);
+    line-height: var(--line-height-heading);
+    color: var(--color-text-default);
+    margin-top: 0;
+    margin-block-start: 0;
+    margin-block-end: var(--spacing-stack);
+  }
+
+  h2 {
+    font-size: var(--font-size-heading-2);
+  }
+
+  h3 {
+    font-size: var(--font-size-heading-3);
+  }
+
+  h4 {
+    font-size: var(--font-size-heading-4);
+  }
+
+  h5 {
+    font-size: var(--font-size-heading-5);
+  }
+
+  h6 {
+    font-size: var(--font-size-heading-6);
+  }
+}
