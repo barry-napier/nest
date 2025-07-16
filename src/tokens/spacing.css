@@ -3,7 +3,7 @@
  *
  * 4px grid system - minimal spacing tokens
  */
-@layer nest.tokens {
+@layer tokens {
   :where(:root) {
     /* Base spacing unit */
     --spacing-0: 0;

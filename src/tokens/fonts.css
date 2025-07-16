@@ -3,7 +3,7 @@
  *
  * Proxima Nova font family definitions
  */
-@layer nest.tokens {
+@layer tokens {
   /* Proxima Nova Font Family */
   @font-face {
     font-family: "Proxima Nova";

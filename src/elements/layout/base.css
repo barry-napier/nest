@@ -1,7 +1,7 @@
 /**
  * @file base.css — Base layout elements (html, body styles, box-sizing)
  */
-@layer nest.elements {
+@layer elements {
   *,
   *::before,
   *::after {

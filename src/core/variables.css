@@ -4,7 +4,7 @@
  * This file maps design tokens to semantic names for use across components and elements.
  * These variables provide meaning and context to the raw design tokens.
  */
-@layer nest.core {
+@layer core {
   :root {
     /* Text Roles */
     --color-text-default: var(--color-gray-800);

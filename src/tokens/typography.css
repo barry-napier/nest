@@ -3,7 +3,7 @@
  *
  * Proxima Nova font family with minimal type scale
  */
-@layer nest.tokens {
+@layer tokens {
   :where(:root) {
     /* Font Family */
     --font-family-default: "Proxima Nova", sans-serif;

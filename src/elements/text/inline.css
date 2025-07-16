@@ -1,6 +1,6 @@
 /**
  * @file inline.css — Inline text elements (strong, em, mark, small, sup, sub, abbr)
  */
-@layer nest.elements {
+@layer elements {
   /* TODO: Add styles */
 }

@@ -1,6 +1,6 @@
 /**
  * @file input.css — Input elements (input[type=text, email, password, etc.])
  */
-@layer nest.elements {
+@layer elements {
   /* TODO: Add styles */
 }

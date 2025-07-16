@@ -10,7 +10,7 @@
  *
  * Define the layer order for Nest UI
  */
-@layer nest.reset, nest.tokens, nest.core, nest.elements, nest.components, nest.utilities;
+@layer reset, tokens, core, elements, components, utilities;
 
 /**
  * @section Reset Layer
