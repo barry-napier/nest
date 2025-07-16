@@ -8,15 +8,15 @@
   h4,
   h5,
   h6 {
-    font-weight: 700;
+    font-weight: var(--font-weight-heading);
+    line-height: var(--line-height-heading);
+    color: var(--color-text-default);
+    margin: 0;
+    letter-spacing: var(--heading-letter-spacing);
   }
 
   h1 {
     font-size: var(--font-size-heading-1);
-    line-height: var(--line-height-heading);
-    color: var(--color-text-default);
-    margin-top: 0;
-    margin-bottom: var(--spacing-stack);
   }
 
   h2 {

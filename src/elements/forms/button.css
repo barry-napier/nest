@@ -2,5 +2,38 @@
  * @file button.css — Button elements (button, input[type=submit])
  */
 @layer elements {
-  /* TODO: Add styles */
+  .btn {
+    background-color: var(--btn-bg-default);
+    color: var(--btn-text-default);
+    border-radius: var(--btn-radius);
+    border: none;
+    padding: var(--btn-padding-y) var(--btn-padding-x);
+    font-size: var(--btn-font-size);
+    font-weight: var(--btn-font-weight);
+    line-height: var(--btn-line-height);
+    font-family: var(--font-family-default);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .btn:hover {
+    background-color: var(--btn-bg-default-hover);
+  }
+
+  .btn:active {
+    background-color: var(--btn-bg-default-active);
+  }
+
+  .btn--primary {
+    background-color: var(--btn-bg-primary);
+    color: var(--btn-text-primary);
+  }
+
+  .btn--primary:hover {
+    background-color: var(--btn-bg-primary-hover);
+  }
 }

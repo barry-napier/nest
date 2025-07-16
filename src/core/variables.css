@@ -26,21 +26,21 @@
     --link-color-active: var(--color-light-blue-800);
 
     /* Button Semantic Tokens */
-    --btn-bg-default: var(--color-light-blue-600);
-    --btn-bg-hover: var(--color-light-blue-700);
-    --btn-bg-active: var(--color-light-blue-800);
-    --btn-bg-secondary: var(--color-gray-100);
-    --btn-bg-secondary-hover: var(--color-gray-200);
-    --btn-bg-danger: var(--color-red-600);
-    --btn-bg-danger-hover: var(--color-red-700);
+    --btn-bg-default: var(--color-gray-200);
+    --btn-bg-default-hover: var(--color-gray-300);
+    --btn-bg-default-active: var(--color-gray-400);
+    --btn-text-default: var(--color-gray-800);
+    --btn-radius: var(--radius-lg);
+    --btn-padding-y: var(--spacing-3);
+    --btn-padding-x: var(--spacing-5);
+    --btn-font-size: var(--font-size-body);
+    --btn-font-weight: var(--font-semibold);
 
-    /* Button Text Semantic Tokens */
-    --btn-text-default: var(--color-white);
-    --btn-text-secondary: var(--color-gray-900);
-    --btn-text-danger: var(--color-white);
-    --btn-radius: var(--radius-sm);
-    --btn-padding-y: var(--spacing-2);
-    --btn-padding-x: var(--spacing-4);
+    /* button primary */
+    --btn-bg-primary: var(--color-light-blue-700);
+    --btn-bg-primary-hover: var(--color-light-blue-800);
+    --btn-bg-primary-active: var(--color-light-blue-900);
+    --btn-text-primary: var(--color-white);
 
     /* Form Input Semantic Tokens */
     --input-bg: var(--color-white);
@@ -63,23 +63,32 @@
     /* Spacing Semantic Tokens */
     --spacing-section: var(--spacing-12);
     --spacing-card: var(--spacing-6);
-    --spacing-stack: var(--spacing-4);
+    --spacing-stack: var(--spacing-3);
     --spacing-inline: var(--spacing-3);
 
     /* Typography Semantic Tokens */
     --font-size-body: var(--text-base);
-    --font-size-heading-1: var(--text-4xl);
-    --font-size-heading-2: var(--text-3xl);
-    --font-size-heading-3: var(--text-2xl);
-    --font-size-heading-4: var(--text-xl);
-    --font-size-heading-5: var(--text-lg);
-    --font-size-heading-6: var(--text-base);
+    --font-size-heading-1: var(--text-3xl);
+    --font-size-heading-2: var(--text-2xl);
+    --font-size-heading-3: var(--text-xl);
+    --font-size-heading-4: var(--text-lg);
+    --font-size-heading-5: var(--text-base);
+    --font-size-heading-6: var(--text-sm);
     --font-size-small: var(--text-sm);
     --font-size-caption: var(--text-xs);
+    --font-weight-heading: 700;
+    --font-weight-body: 400;
+    --heading-letter-spacing: -0.025em;
 
     /* Line Heights */
     --line-height-body: var(--leading-normal);
     --line-height-heading: var(--leading-tight);
     --line-height-loose: var(--leading-relaxed);
+
+    /* Card Semantic Tokens */
+    --card-border-radius: var(--radius-md);
+    --card-padding: var(--spacing-5);
+    --card-background-color: var(--color-surface-default);
+    --card-border-color: var(--color-border-default);
   }
 }

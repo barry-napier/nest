@@ -77,8 +77,7 @@
  * Reusable UI components
  * This layer contains BEM-structured components using semantic tokens
  */
-
-/* Component styles will go here */
+@import "./components/card.css";
 
 /**
  * @section Utilities Layer
@@ -86,5 +85,5 @@
  * Utility classes
  * This layer contains utility classes for common patterns
  */
-
-/* Utility classes will go here */
+@import "./utilities/text.css";
+@import "./utilities/layout.css";

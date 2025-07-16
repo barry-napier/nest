@@ -6,7 +6,7 @@
 @layer tokens {
   :where(:root) {
     /* Font Family */
-    --font-family-default: "Proxima Nova", sans-serif;
+    --font-family-default: "proxima-nova", sans-serif;
 
     /* Font Sizes */
     --text-xs: 0.75rem; /* 12px */

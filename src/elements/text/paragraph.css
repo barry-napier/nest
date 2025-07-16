@@ -2,5 +2,12 @@
  * @file paragraph.css — Paragraph element (p)
  */
 @layer elements {
-  /* TODO: Add styles */
+  p {
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    color: var(--color-text-default);
+    margin-top: 0;
+    margin-bottom: var(--spacing-stack);
+    text-wrap: pretty;
+  }
 }
