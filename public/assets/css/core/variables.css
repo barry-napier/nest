@@ -6,15 +6,19 @@
  */
 @layer nest.core {
   :root {
-    /* Text & Surface Roles */
-    --color-text-default: var(--color-gray-900);
+    /* Text Roles */
+    --color-text-default: var(--color-gray-800);
     --color-text-muted: var(--color-gray-600);
     --color-text-inverse: var(--color-white);
+
+    /* Background & Surface Roles */
+    --color-background-default: var(--color-gray-100);
     --color-surface-default: var(--color-white);
-    --color-surface-muted: var(--color-gray-50);
-    --color-surface-elevated: var(--color-white);
+
+    /* Border Roles */
     --color-border-default: var(--color-gray-200);
     --color-border-muted: var(--color-gray-100);
+    --color-border-inverse: var(--color-white);
 
     /* Link Semantic Tokens */
     --link-color: var(--color-light-blue-600);

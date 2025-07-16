@@ -16,7 +16,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-size-adjust: 100%;
     color: var(--color-text-default);
-    background-color: var(--color-surface-default);
+    background-color: var(--color-background-default);
   }
 
   body {
@@ -26,6 +26,6 @@
     font-weight: var(--font-normal, 400);
     line-height: var(--line-height-body);
     color: var(--color-text-default);
-    background-color: var(--color-surface-default);
+    background-color: var(--color-background-default);
   }
 }
