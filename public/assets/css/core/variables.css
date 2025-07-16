@@ -1,0 +1,79 @@
+/**
+ * @file variables.css — Semantic token mappings
+ *
+ * This file maps design tokens to semantic names for use across components and elements.
+ * These variables provide meaning and context to the raw design tokens.
+ */
+@layer nest.core {
+  :root {
+    /* Text & Surface Roles */
+    --color-text-default: var(--color-gray-900);
+    --color-text-muted: var(--color-gray-600);
+    --color-text-inverse: var(--color-white);
+    --color-surface-default: var(--color-white);
+    --color-surface-muted: var(--color-gray-50);
+    --color-surface-elevated: var(--color-white);
+    --color-border-default: var(--color-gray-200);
+    --color-border-muted: var(--color-gray-100);
+
+    /* Link Semantic Tokens */
+    --link-color: var(--color-light-blue-600);
+    --link-color-hover: var(--color-light-blue-700);
+    --link-color-active: var(--color-light-blue-800);
+
+    /* Button Semantic Tokens */
+    --btn-bg-default: var(--color-light-blue-600);
+    --btn-bg-hover: var(--color-light-blue-700);
+    --btn-bg-active: var(--color-light-blue-800);
+    --btn-bg-secondary: var(--color-gray-100);
+    --btn-bg-secondary-hover: var(--color-gray-200);
+    --btn-bg-danger: var(--color-red-600);
+    --btn-bg-danger-hover: var(--color-red-700);
+
+    --btn-text-default: var(--color-white);
+    --btn-text-secondary: var(--color-gray-900);
+    --btn-text-danger: var(--color-white);
+    --btn-radius: var(--radius-sm);
+    --btn-padding-y: var(--spacing-2);
+    --btn-padding-x: var(--spacing-4);
+
+    /* Form Input Semantic Tokens */
+    --input-bg: var(--color-white);
+    --input-bg-disabled: var(--color-gray-50);
+    --input-border: var(--color-gray-300);
+    --input-border-focus: var(--color-light-blue-500);
+    --input-border-error: var(--color-red-500);
+    --input-text: var(--color-gray-900);
+    --input-text-placeholder: var(--color-gray-500);
+    --input-radius: var(--radius-sm);
+    --input-padding-y: var(--spacing-2);
+    --input-padding-x: var(--spacing-3);
+
+    /* Status Semantic Tokens */
+    --color-success: var(--color-green-600);
+    --color-warning: var(--color-yellow-600);
+    --color-error: var(--color-red-600);
+    --color-info: var(--color-light-blue-600);
+
+    /* Spacing Semantic Tokens */
+    --spacing-section: var(--spacing-12);
+    --spacing-card: var(--spacing-6);
+    --spacing-stack: var(--spacing-4);
+    --spacing-inline: var(--spacing-3);
+
+    /* Typography Semantic Tokens */
+    --font-size-body: var(--text-base);
+    --font-size-heading-1: var(--text-4xl);
+    --font-size-heading-2: var(--text-3xl);
+    --font-size-heading-3: var(--text-2xl);
+    --font-size-heading-4: var(--text-xl);
+    --font-size-heading-5: var(--text-lg);
+    --font-size-heading-6: var(--text-base);
+    --font-size-small: var(--text-sm);
+    --font-size-caption: var(--text-xs);
+
+    --line-height-body: var(--leading-normal);
+    --line-height-heading: var(--leading-tight);
+    --line-height-loose: var(--leading-relaxed);
+  }
+}

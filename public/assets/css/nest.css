@@ -17,15 +17,15 @@
  *
  * CSS Reset and Normalize styles
  */
-@layer nest.reset {
-  /* CSS Reset and Normalize styles will go here */
-}
+
+/* CSS Reset and Normalize styles will go here */
 
 /**
  * @section Tokens Layer
  *
  * Figma-exported design tokens
  */
+
 @import "./tokens/fonts.css";
 @import "./tokens/colors.css";
 @import "./tokens/spacing.css";
@@ -38,13 +38,8 @@
  * Semantic token mappings
  * This layer maps design tokens to semantic names
  */
-@layer nest.core {
-  /* Example semantic tokens:
-   * --btn-background: var(--color-primary-500);
-   * --btn-text: var(--color-white);
-   * --spacing-xs: var(--spacing-100);
-   */
-}
+
+@import "./core/variables.css";
 
 /**
  * @section Elements Layer
@@ -52,9 +47,29 @@
  * Native HTML element styling
  * This layer styles base HTML elements using semantic tokens
  */
-@layer nest.elements {
-  /* Native HTML element styling will go here */
-}
+
+/* Text Elements */
+@import "./elements/text/headings.css";
+@import "./elements/text/paragraph.css";
+@import "./elements/text/inline.css";
+
+/* Form Elements */
+@import "./elements/forms/input.css";
+@import "./elements/forms/button.css";
+@import "./elements/forms/textarea.css";
+@import "./elements/forms/select.css";
+@import "./elements/forms/checkbox.css";
+@import "./elements/forms/radio.css";
+@import "./elements/forms/label.css";
+@import "./elements/forms/fieldset.css";
+@import "./elements/forms/legend.css";
+
+/* Layout Elements */
+@import "./elements/layout/base.css";
+@import "./elements/layout/hr.css";
+@import "./elements/layout/lists.css";
+@import "./elements/layout/tables.css";
+@import "./elements/layout/blockquote.css";
 
 /**
  * @section Components Layer
@@ -62,9 +77,8 @@
  * Reusable UI components
  * This layer contains BEM-structured components using semantic tokens
  */
-@layer nest.components {
-  /* Component styles will go here */
-}
+
+/* Component styles will go here */
 
 /**
  * @section Utilities Layer
@@ -72,6 +86,5 @@
  * Utility classes
  * This layer contains utility classes for common patterns
  */
-@layer nest.utilities {
-  /* Utility classes will go here */
-}
+
+/* Utility classes will go here */

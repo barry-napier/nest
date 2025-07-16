@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server public -p 3000 -o",
-    "dev": "http-server public -p 3000 -o -c-1",
+    "start": "live-server --port=3000 --open=/public/index.html",
+    "dev": "live-server --port=3000 --open=/public/index.html --watch=src",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "stylelint \"src/**/*.css\"",
@@ -16,7 +16,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
     "prettier": "^3.6.2",
     "stylelint": "^16.21.1",
     "stylelint-config-recommended": "^16.0.0"
