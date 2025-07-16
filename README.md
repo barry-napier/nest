@@ -1,6 +1,8 @@
-# Nest CSS Framework
+# Nest UI
 
-A modern, lightweight CSS framework designed for simplicity and flexibility.
+A modern, classless CSS framework designed to work seamlessly with your design system in Figma. It prioritizes semantic design tokens, accessible native elements, and minimal configuration.
+
+Instead of relying on utility classes, Nest UI styles native HTML elements out of the box, and uses [BEM](https://getbem.com/) where necessary for structured, component-driven styling. It encourages clear separation between design tokens, themes, elements, and components.
 
 ## 🚀 Quick Start
 
@@ -43,50 +45,71 @@ nest/
 └── README.md
 ```
 
+## 🧩 How It Works
+
+1. **Design Tokens in Figma**
+   Designers define all core tokens (colors, spacing, typography, etc.) using Figma variables.
+
+2. **Export Tokens to CSS**
+   A script pulls Figma variables via the Figma API and converts them into CSS custom properties, saved in `tokens.css`.
+
+3. **Semantic Tokens**
+   A second layer of semantic tokens (like `--btn-background`) is defined in `@layer nest.core` for use across themes and components.
+
+4. **Component Styling**
+   Each component (like buttons, alerts, modals) uses semantic tokens and optional BEM structure. This keeps styles predictable and easy to override.
+
+5. **Theming Support**
+   Light and dark themes are managed via `.nest-theme-light` and `.nest-theme-dark` selectors using token remapping.
+
+6. **No Build Step Required**
+   All files are native `.css`, compatible with modern browsers — zero JavaScript or tooling needed to use Nest UI.
+
 ## 🎨 Framework Architecture
 
-Nest CSS Framework follows a modular architecture:
+Nest UI follows a design-token-driven architecture:
 
-1. **Tokens** - Design system variables (colors, spacing, typography)
-2. **Theme** - Theme configurations and variations
-3. **Elements** - Base HTML element styling
-4. **Components** - Reusable UI components
-5. **Utilities** - Utility classes for common patterns
+1. **Tokens** - Figma-exported design tokens and semantic token mappings
+2. **Theme** - Light/dark theme configurations with token remapping
+3. **Elements** - Native HTML element styling using semantic tokens
+4. **Components** - BEM-structured components with semantic tokens
+5. **Core** - Base framework layer with `@layer nest.core`
 
 ## 🛠️ Development
 
-### Adding New Components
+### Adding Components
 
-1. Create your component CSS file in `src/components/`
-2. Import it in `src/nest.css`
-3. Test it in `index.html`
-
-### Adding Utilities
-
-1. Create utility classes in `src/utilities/`
-2. Follow the naming convention: `.u-{property}-{value}`
-3. Import in `src/nest.css`
+1. Create your component CSS file in `src/components/` using BEM methodology
+2. Use semantic tokens from `@layer nest.core` for styling
+3. Import it in `src/nest.css`
+4. Test it in `index.html`
 
 ### Design Tokens
 
-Define your design tokens in `src/tokens/`:
+Design tokens are managed through Figma:
 
-- Colors
-- Typography scales
-- Spacing scales
-- Breakpoints
-- Shadows
-- Border radius values
+1. Define tokens in Figma using variables
+2. Export via Figma API script to `src/tokens/tokens.css`
+3. Create semantic mappings in `@layer nest.core`
+4. Use semantic tokens in components and elements
+
+### Theming
+
+Themes are managed through CSS custom properties:
+
+- Light theme: `.nest-theme-light`
+- Dark theme: `.nest-theme-dark`
+- Token remapping for theme variations
 
 ## 📦 Build Process
 
-The framework is designed to be lightweight and doesn't require a build step for basic usage. Simply include `src/nest.css` in your HTML.
+Nest UI is designed to be zero-configuration and doesn't require a build step. Simply include `src/nest.css` in your HTML.
 
 For production, consider:
 
 - Minifying the CSS
-- Removing unused utilities
 - Optimizing for your specific use case
+- Removing unused components if needed
 
 ## 🤝 Contributing
 
@@ -98,7 +121,7 @@ For production, consider:
 
 ## 📄 License
 
-ISC License - see LICENSE file for details.
+MIT License - see LICENSE file for details.
 
 ## 🆘 Support
 
